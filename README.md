@@ -53,7 +53,7 @@ Please refer to the file "Task_1_Answer.md".
     
      3. Encode the data to make categorical values into numerical, which is essential for some machine learning methods. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/40ff991f-c056-4a93-9a05-a55a6cbbef05)
     
-     4. Make the values in columns "Balance" and "EstimatedSalary" to values within a range of 0 and 1 due to their wide distribution. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/89d555af-ba0a-4807-a95a-146f21c1ea8d)
+     4. Make the values in columns "Balance" and "EstimatedSalary" to values within a range of 0 and 1 due to their wide distributions. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/89d555af-ba0a-4807-a95a-146f21c1ea8d)
     
      5. Split the data into training and validation data for building and evaluating the models' training. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/9e6a045c-d520-4999-86ee-890eb957a21d)
     
