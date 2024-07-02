@@ -32,7 +32,7 @@ Please refer to the file "Task_1_Answer.md".
      ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/3de72e74-0b1b-4c03-9aa6-b86222814c77)
 
 3. Data Cleaning
-   * Data cleaning is crucial as wrong data influence the model training process and further the result. With that, I conducted some analyses to check whether there were problems in the dataset given.
+   * Data cleaning is crucial as wrong data influence the model training process and further the result. With that, I conducted some analyses to check whether there were problems in the datasets given.
 
      The steps I did were:
        * Check missing values ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/6be62fcf-5bba-4c05-a0bb-4de00ddf0029)
