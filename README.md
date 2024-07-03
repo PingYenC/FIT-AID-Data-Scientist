@@ -67,7 +67,7 @@ Please refer to the file "Task_1_Answer.md".
     
      - Logistic Regression algorithm:
     
-       Logistic Regression is a popular and easily understandable method for binary classification-prediction tasks. It is known for its power to explain logistic-regression distributed data. I used this method to test whether the data was distributed that way. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/0b355d13-3320-4433-b4df-957ab1a85862)
+       Logistic Regression is a popular and easily understandable method for binary classification-prediction tasks. It is known for its power to explain logistic-regression distributed data. I used this method to test whether the data was distributed that way. For this method, I implemented grid-search on l1 or l2 penalty to avoid overfitting. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/0b355d13-3320-4433-b4df-957ab1a85862)
 
     
      - XGBoost (Extreme Gradient Boosting) algorithm:
