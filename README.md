@@ -76,10 +76,12 @@ Please refer to the file "Task_1_Answer.md".
 
      - Deep Learning:
     
-       Deep learning allows the machine to find patterns from data on its own. This method was chosen due to its capability to identify hidden relationships among the dataset without extensive work (please refer the coding to the "Task_2_Code_File.ipynb"). ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/5735a15a-fed2-4ab5-9922-e7ade2bbed74) ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/a8c8e512-cd90-411a-ab9e-d898b4b2726b)
+       Deep learning allows the machine to find patterns from data on its own. This method was chosen due to its capability to identify hidden relationships among the dataset without extensive work (please refer the coding to the "Task_2_Code_File.ipynb"). ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/962c98cb-4fa9-4355-9ee6-f10c4144340f)
+ ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/59bac517-2318-453b-bcfa-8b4f1d8c67a7)
 
 
-During the model-building process, I used grid-search on machine learning (KNN, Logistic Regression, and XGBoost) to find the best parameters for each algorithm, and provided deep learning method with a setting of "3 hidden layers (ReLu), 1 output layer (sigmoid)" as it was the most efficient setting I found after several sessions. The detailed setting for deep learning is as below: ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/34f4e5f4-a963-4c73-ab14-198fc21d6d81)
+During the model-building process, I used grid-search on machine learning (KNN, Logistic Regression, and XGBoost) to find the best parameters for each algorithm, and provided deep learning method with a setting of "1 input layer, 2 hidden layers (ReLu), 1 output layer (sigmoid)" as it was the most efficient setting I found after several sessions. The detailed setting for deep learning is as below: ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/cf17e5a2-826d-4238-b844-fba38fd7b72a)
+
        
 5. Model Evaluation
    * By comparing the validation performance for each method, I found out that the deep learning method offered the best result, with an 85% overall prediction accuracy and a 66% f1 score.
