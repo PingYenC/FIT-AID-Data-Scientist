@@ -82,14 +82,18 @@ Please refer to the file "Task_1_Answer.md".
 During the model-building process, I used grid-search on machine learning (KNN, Logistic Regression, and XGBoost) to find the best parameters for each algorithm, and provided deep learning method with a setting of "3 hidden layers (ReLu), 1 output layer (sigmoid)" as it was the most efficient setting I found after several sessions. The detailed setting for deep learning is as below: ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/34f4e5f4-a963-4c73-ab14-198fc21d6d81)
        
 5. Model Evaluation
-   * By comparing the validation performance for each method, I found out that the deep learning method offered the best result, with an 84% overall prediction accuracy and a 66% f1 score.
-     ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/251cf4f0-28e4-4298-bc0e-cfcac8398fee)
+   * By comparing the validation performance for each method, I found out that the deep learning method offered the best result, with an 85% overall prediction accuracy and a 66% f1 score.
+     ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/e4a3cda7-d08e-4109-a3a2-8f740374f65d)
 
-   * Looking at the confusion matrix for each method, I concluded that while XGBoost performed better in forecasting 1 than Deep learning did, it performed worse in forecasting 0. Hence, deep learning was the most powerful method of making robust predictions. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/2175018b-edea-4297-bb2e-1f1bb2065ba0)
+
+   * Looking at the confusion matrix for each method, I concluded that while XGBoost performed better in forecasting 1 than Deep learning did, it performed worse in forecasting 0. Hence, deep learning was the most powerful method of making robust predictions. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/e1e4e116-7d93-4af1-ab08-98e7421b5329)
+
   
-   * The below graph of the Precision-Recall curve proves my conclusion by showing that the model trained by the deep learning method maintained a high recall rate when the precision rate was high. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/47810298-ef6a-4a72-80e4-3f98a547d6b4)
+   * The below graph of the Precision-Recall curve proves my conclusion by showing that the model trained by the deep learning method maintained a high recall rate when the precision rate was high. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/9114087e-435b-4599-9420-b591a84f47f4)
+
 
 6. Result Storing and Conclusion
    * I used the four trained models to make predictions on the testing data, which is the file "test.csv" and stored the predictions with the original data in a CSV file. You can refer to the file "Task_2_CSV_Predictions_Performance". It contains each model's performance as well.
-   * Visualizing the predictions on the testing data, I found out that different models had slightly different predictions, making the distribution of the predictions different from each other. This was caused by the difference in each model's capabilities. Since I concluded that deep learning was the best model out of the four we had, I suggest focusing on and trusting the predictions from the deep learning model. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/4c572ee8-96c5-47fe-88f0-60ba763ebe83)
+   * Visualizing the predictions on the testing data, I found out that different models had slightly different predictions, making the distribution of the predictions different from each other. This was caused by the difference in each model's capabilities. Since I concluded that deep learning was the best model out of the four we had, I suggest focusing on and trusting the predictions from the deep learning model. ![image](https://github.com/PingYenC/FIT-AID-Data-Scientist/assets/164700831/57ce2357-5b8b-4b5c-81be-b63a6944c358)
+
 
