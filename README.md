@@ -2,7 +2,7 @@
 This is an interview assignment for the role of FIT AID: Data Scientist.
 
 # File Descriptions
-* The original data given by FIT is the files "test.csv" and "train.csv", they were used to build the predictive model.
+* The original datasets given by FIT are the files "test.csv" and "train.csv", they were used to build the predictive model.
 * Task 1 questions were answered in the file "Task_1_Answer.md".
 * Task 2 tasks were completed and recorded in the file "Task_2_Code_File.ipynb".
 * Task 2 output was stored in the file "Task_2_CSV_Predictions_Performance.csv".
